@@ -1,6 +1,6 @@
 require_relative '../dice_roll'
 
-def roll (1,2,3,4,5,6)
+def roll (1..6)
 describe "#roll" do
 
   it "should return an Integer" do
